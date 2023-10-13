@@ -137,9 +137,10 @@
 }
 
 .btn{
-    background-color: rgb(22, 162, 180);
+    background-color: black;
+    text-decoration: none;
     display: block;
-    color: var(--secundario);
+    color: rgb(122, 122, 122);
     text-transform: uppercase;
     font-weight: 900;
     padding: 1rem;
@@ -150,7 +151,8 @@
 }
 
 .btn:hover{
-    background-color: rgb(160, 116, 0);
+    background-color: grey;
+    color: white; 
     cursor: pointer;
 }
 
