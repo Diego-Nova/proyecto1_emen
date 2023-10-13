@@ -36,24 +36,25 @@
     background-color: grey;
 }
 
-.sobre-nosotros{
+.sobre-nosotros {
     margin-top: 5rem;
     background-image: linear-gradient(
-            to right,
-            transparent 50%
-            #880101 50%
-            #880101 100%
-        ),
-        url(../proyecto1/Imagenes/tux.jpg);
+        to right,
+        transparent 10%,
+        #636262 50%,
+        black 100%
+      ),
+      url(./Imagenes/jumbotron2.jpeg);
     background-position: left center;
     padding: 10rem 0;
     background-repeat: no-repeat;
     background-size: 100%, 120rem;
-}
-.sobre-nosotros-grid{
+  }
+
+  .sobre-nosotros-grid {
     display: flex;
     justify-content: flex-end;
-}
+  }
 .texto-nosotros{
     flex-basis: 50%;
     padding-left: 10rem;
