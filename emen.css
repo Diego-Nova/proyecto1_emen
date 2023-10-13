@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 .logo{
@@ -26,7 +26,7 @@
 .enlace{
     color: rgb(130, 130, 130);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     padding: 30px;
 }
@@ -74,9 +74,9 @@
 }
 
 .formulario-contacto button{
-    background-color: rgb(180, 180, 22);
+    background-color: black;
     display: block;
-    color: var(--secundario);
+    color: grey;
     text-transform: uppercase;
     font-weight: 900;
     padding: 1rem;
@@ -89,6 +89,7 @@
 
 .formulario-contacto button:hover{
     background-color: rgb(13, 181, 38);
+    color: black;
     cursor: pointer;
 }
 
@@ -106,9 +107,9 @@
 }
 
 .listado-moda{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: flex;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 4rem;
 }
 
 .texto-moda{
@@ -169,7 +170,8 @@ h3{
 }
 
 .sitio-footer{
-    background-color: var(--primario);
+    background-color: rgb(91, 90, 90);
+    color: black;
     padding: 5rem;
 }
 
